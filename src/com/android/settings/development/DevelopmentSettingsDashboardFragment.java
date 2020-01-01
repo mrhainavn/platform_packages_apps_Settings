@@ -42,6 +42,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsActivity;
 import com.android.settings.Utils;
 import com.android.settings.dashboard.RestrictedDashboardFragment;
+import com.android.settings.development.DarkUIPreferenceController;
 import com.android.settings.development.autofill.AutofillLoggingLevelPreferenceController;
 import com.android.settings.development.autofill.AutofillResetOptionsPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -144,6 +145,7 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+        use(DarkUIPreferenceController.class).setParentFragment(this);
         if (Utils.isMonkeyRunning()) {
             getActivity().finish();
             return;

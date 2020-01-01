@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.android.settings.display;
+package com.android.settings.development;
 
 import android.app.UiModeManager;
 import android.content.BroadcastReceiver;

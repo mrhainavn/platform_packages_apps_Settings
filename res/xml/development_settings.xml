@@ -391,9 +391,16 @@
             android:entryValues="@array/show_non_rect_clip_values" />
 
         <SwitchPreference
+            android:key="dark_ui_mode"
+            android:title="@string/dark_ui_mode"
+            settings:keywords="@string/keywords_dark_ui_mode"
+            settings:controller="com.android.settings.development.DarkUIPreferenceController"/>
+
+        <SwitchPreference
             android:key="hwui_force_dark"
             android:title="@string/hwui_force_dark_title"
-            android:summary="@string/hwui_force_dark_summary" />
+            android:summary="@string/hwui_force_dark_summary"
+            android:dependency="dark_ui_mode" />
 
         <SwitchPreference
             android:key="force_msaa"
