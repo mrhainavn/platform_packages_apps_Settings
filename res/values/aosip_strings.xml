@@ -16,8 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">DerpFest Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_settings_title">DerpQuest Updater</string>
+    <string name="update_settings_summary">Check for the latest version of the DerpQuest</string>
     <string name="update_package" translatable="false">org.lineageos.updater</string>
     <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
 
@@ -26,7 +26,7 @@
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
 
     <!-- AOSiP Version -->
-    <string name="aosip_version">DerpFest version</string>
+    <string name="aosip_version">DerpQuest version</string>
 
     <!-- DerpFest Build types -->
     <string name="build_type">Build Type</string>
@@ -73,7 +73,7 @@
 
     <!-- DerpQuest Settings strings -->
     <string name="derp_settings_title">DerpQuest</string>
-    <string name="derp_settings_summary">In Kronic we trust...</string>
+    <string name="derp_settings_summary">In DerpQuest we always trust...</string>
     <string name="derp_extras_qs_title">Quick Settings</string>
 
     <!-- Quick unlock -->

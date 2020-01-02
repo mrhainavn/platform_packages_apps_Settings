@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2018 AOSiP
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">Cập nhật DerpQuest</string>
+    <string name="update_settings_summary">Kiểm tra phiên bản mới nhất của DerpQuest</string>
+    <string name="update_package" translatable="false">org.lineageos.updater</string>
+    <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Thiết lập lại tình trạng pin</string>
+    <string name="battery_stats_message">Số liệu thống kê lịch sử pin sẽ được thiết lập lại</string>
+
+    <!-- AOSiP Version -->
+    <string name="aosip_version">Phiên bản DerpQuest</string>
+
+    <!-- DerpFest Build types -->
+    <string name="build_type">Kiểu xây dựng</string>
+    <string name="derp_official">Chính thức</string>
+    <string name="derp_ci">CI</string>
+    <string name="derp_private">Riêng tư</string>
+    <string name="derp_community">Cộng đồng</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Âm thanh màn trập ảnh chụp màn hình</string>
+
+    <!-- Adb over Network -->
+    <string name="adb_over_network">ADB qua mạng</string>
+    <string name="adb_over_network_summary">Cho phép gỡ lỗi TCP/IP qua các giao thức mạng (mạng Wi-Fi, USB). Cài đặt này được đặt lại khi khởi động lại</string>
+    <string name="adb_over_network_warning">CẢNH BÁO: Khi ADB qua mạng được bật, điện thoại của bạn sẽ mở để xâm nhập vào tất cả các mạng được kết nối, bao gồm cả mạng dữ liệu GSM!\n\nChỉ sử dụng tính năng này khi bạn được kết nối trên các mạng đáng tin cậy. \n\nBạn có thực sự muốn bật không chức năng?</string>
+    <string name="adb_over_network_warning_title">Cho phép ADB qua mạng?</string>
+
+    <!-- Density category -->
+    <string name="density_category">Tùy chọn mật độ</string>
+
+    <!-- Device Parts -->
+    <string name="device_part_title">Các tính năng của thiết bị</string>
+    <string name="device_part_summary">Các tính năng cụ thể của thiết bị</string>
+
+    <string name="battery_temp">Nhiệt độ pin</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Chợ ứng dụng google</string>
+
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Xác định vị trí cảm biến vân tay ở mặt trước điện thoại của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Xác định vị trí cảm biến vân tay ở bên trái điện thoại của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Xác định vị trí cảm biến vân tay ở bên phải điện thoại của bạn.</string>
+
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Xác định vị trí cảm biến vân tay ở mặt trước thiết bị của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Xác định vị trí cảm biến vân tay ở bên trái thiết bị của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Xác định vị trí cảm biến vân tay ở bên phải thiết bị của bạn.</string>
+
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Xác định vị trí cảm biến vân tay ở mặt trước máy tính bảng của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Xác định vị trí cảm biến vân tay ở bên trái máy tính bảng của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Xác định vị trí cảm biến vân tay ở bên phải máy tính bảng của bạn.</string>
+
+    <!-- DerpQuest Settings strings -->
+    <string name="derp_settings_title">DerpQuest</string>
+    <string name="derp_settings_summary">Chúng tôi luôn tin tưởng vào DerpQuest...</string>
+    <string name="derp_extras_qs_title">Cài đặt nhanh</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Mở khóa nhanh</string>
+    <string name="unlock_quick_unlock_control_summary">Tự động mở khóa khi nhập mã PIN/mật khẩu chính xác</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">Màu sáng</string>
+    <string name="custom_light_on_time_title">Thời gian bật màu sáng trong khi xung led (ms)</string>
+    <string name="custom_light_off_time_title">Thời gian tắt màu sáng trong khi xung led (ms)"</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Chạm để hiện thông tin</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">Chuông điện thoại - SIM 1</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">Chuông điện thoại - SIM 2</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Rung khi sạc pin</string>
+
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Thời gian tối thiểu giữa các âm thanh thông báo</string>
+    <string name="app_notification_sound_timeout_summary_template">Cho phép âm thanh hoặc rung không quá mỗi lần một <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">không hạn chế</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 giây</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 giây</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 phút</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 phút</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 phút</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 phút</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Thông tin sạc trên màn hình khóa</string>
+    <string name="lockscreen_battery_info_summary">Hiển thị dòng sạc, điện áp và nhiệt độ pin trên màn hình khóa trong khi sạc</string>
+
+    <!-- Disable dashboards conditions and suggestions -->
+    <string name="dashboard_conditions_title">Điều kiện bảng điều khiển</string>
+    <string name="summary_dashboard_conditions_enabled">Điều kiện bảng điều khiển được kích hoạt</string>
+    <string name="summary_dashboard_conditions_disabled">Điều kiện bảng điều khiển bị vô hiệu hóa</string>
+    <string name="dashboard_suggestions_title">Đề xuất bảng điều khiển</string>
+    <string name="summary_dashboard_suggestions_enabled">Đề xuất bảng điều khiển được bật</string>
+    <string name="summary_dashboard_suggestions_disabled">Đề xuất bảng điều khiển bị tắt</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
+    <string name="display_cutout_force_fullscreen_summary">Buộc các ứng dụng bỏ qua không gian notch</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Liên kết chuông &amp; Âm lượng các thông báo</string>
+
+    <!-- Dismiss notifications with back FP swipe -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Vuốt dấu vân tay sang trái hoặc phải để loại bỏ thông báo</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Để loại bỏ thông báo của bạn, hãy vuốt sang trái hoặc phải trên cảm biến vân tay ở mặt sau của điện thoại.</string>
+
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Bỏ qua các bản nhạc</string>
+    <string name="volume_skiptrack_title">Nhấn nút chỉnh âm lượng để bỏ qua các bản nhạc</string>
+    <string name="volume_skiptrack_summary">Nhấn và giữ nút chỉnh âm lượng để bỏ qua các bản nhạc khi phát nhạc, thậm chí từ xa trên tv hoặc PC với ví dụ: Spotify (ứng dụng phải chạy trên điện thoại và hiển thị thông báo).</string>
+
+    <string name="ambient_wake_gestures_title">Cử chỉ đánh thức xung quanh</string>
+    <string name="ambient_wake_gestures_summary">Hiển thị màn hình xung quanh thay vì màn hình khóa thông thường ở cử chỉ đánh thức</string>
+
+    <string name="pulse_on_new_tracks_title">Mã âm nhạc xung quanh</string>
+    <string name="pulse_on_new_tracks_summary">Hiển thị môi trường xung quanh khi một bản nhạc mới được phát. Nhấn đúp vào thông tin bản nhạc để chuyển sang bản nhạc tiếp theo.</string>
+
+    <string name="back_height_low_label">Đầy đủ</string>
+    <string name="back_height_high_label">Bên dưới</string>
+    <string name="back_options_dialog_title">Tùy chọn</string>
+    <string name="back_height_message">Số lượng chiều cao màn hình được sử dụng làm vùng có thể chạm cho cử chỉ quay lại.</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Luôn bật trong khi sạc</string>
+    <string name="doze_on_charge_summary">Hiển thị màn hình ngủ gật mọi lúc trong khi sạc</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Nền tảng</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Tổng RAM</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Các thay đổi</string>
+    <string name="changelog_summary">Kể từ lần cập nhật cuối</string>
+    <string name="changelog_error">Không thể tải các thay đổi</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Tăng âm lượng chuông</string>
+    <string name="increasing_ring_min_volume_title">Âm lượng bắt đầu</string>
+    <string name="increasing_ring_ramp_up_time_title">Thời gian tăng tốc</string>
+
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Hành vi notch</string>
+    <string name="display_cutout_mode_normal">Mặc định</string>
+    <string name="display_cutout_mode_hidden">Ẩn</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">Tình trạng SELinux</string>
+    <string name="selinux_status_disabled">Bị vô hiệu hoá</string>
+    <string name="selinux_status_permissive">Cho phép</string>
+    <string name="selinux_status_enforcing">Thực thi</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Hiển thị một mũi tên hoạt hình cho cử chỉ trở lại.</string>
+
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Nhấn đúp</string>
+    <string name="doze_double_tap_title">Nhấn đúp để kiểm tra điện thoại</string>
+    <string name="doze_double_tap_summary">Thông báo xung bằng cách chạm hai lần</string>
+
+</resources>
