@@ -198,7 +198,7 @@
         android:key="debug_networking_category"
         android:title="@string/debug_networking_category"
         android:order="400">
-        
+
         <com.android.settings.HostnamePreference
             android:key="device_hostname"
             android:title="@string/device_hostname"
@@ -402,18 +402,6 @@
             android:entryValues="@array/show_non_rect_clip_values" />
 
         <SwitchPreference
-            android:key="dark_ui_mode"
-            android:title="@string/dark_ui_mode"
-            settings:keywords="@string/keywords_dark_ui_mode"
-            settings:controller="com.android.settings.development.DarkUIPreferenceController"/>
-
-        <SwitchPreference
-            android:key="hwui_force_dark"
-            android:title="@string/hwui_force_dark_title"
-            android:summary="@string/hwui_force_dark_summary"
-            android:dependency="dark_ui_mode" />
-
-        <SwitchPreference
             android:key="force_msaa"
             android:title="@string/force_msaa"
             android:summary="@string/force_msaa_summary" />
@@ -573,6 +561,18 @@
         android:key="theme_customization_category"
         android:title="@string/theme_customization_category"
         android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
+        
+        <SwitchPreference
+            android:key="dark_ui_mode"
+            android:title="@string/dark_ui_mode"
+            settings:keywords="@string/keywords_dark_ui_mode"
+            settings:controller="com.android.settings.development.DarkUIPreferenceController"/>
+
+        <SwitchPreference
+            android:key="hwui_force_dark"
+            android:title="@string/hwui_force_dark_title"
+            android:summary="@string/hwui_force_dark_summary"
+            android:dependency="dark_ui_mode" />
 
         <ListPreference
             android:key="android.theme.customization.accent_color"
